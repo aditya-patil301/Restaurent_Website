@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rasoi Mahal</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="Navigation">
+      <div class="Navigation-container">
+        <div class="logo"><i class="fas fa-crown"></i> Rasoi Mahal</div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="nav_links" id="navLinks">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#shop">Our Shop</a></li>
+          <li><a href="#customer">Our Customer</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <script>
+      function toggleMenu() {
+        const nav = document.getElementById("navLinks");
+        nav.classList.toggle("active");
+      }
+    </script> 
+
+    <section id="home">
+      <div class="container">
+        <div class="text-section">
+          <h1 class="main-title">RASOI MAHAL</h1>
+          <p class="tagline">FLAVORS OF INDIA</p>
+          <h2>Welcome to Rasoi Mahal</h2>
+          <p class="description">
+            Discover the rich and authentic tastes of India. <br />
+            We bring you a culinary experience like no other, <br />
+            with traditional recipes made from the freshest ingredients.
+          </p>
+          <button>VIEW MENU</button>
+        </div>
+
+        <div class="image-section">
+          <img src="images/home_page_image.png" alt="Indian Food" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="info">
+        <div class="wcu"><h2>Why Choose Us -</h2></div>
+        <div class="info_para">
+          <span
+            >At Rasoi Mahal, we believe food is more than just a meal — it's an
+            experience. Nestled in the heart of tradition and flavor, our
+            restaurant brings you the authentic taste of India with a modern
+            twist. We are passionate about serving dishes that reflect the rich
+            heritage of Indian cuisine. <br />Every recipe is crafted with love,
+            using fresh ingredients, traditional spices, and time-honored
+            cooking techniques that transport you straight to the streets and
+            kitchens of India.</span
+          >
+        </div>
+      </div>
+      <div class="info-boxes">
+        <div class="box">
+          <img src="images/time.png" alt="time" />
+          <h3>11:00 AM - 10:00 PM</h3>
+          <p>Working Hours</p>
+        </div>
+        <div class="box">
+          <img src="images/location.png" alt="time" />
+          <h3>Geeta Bhawan Square</h3>
+          <p>Get Directions</p>
+        </div>
+        <div class="box">
+          <img src="images/phone.png" alt="time" />
+          <h3>+91 88396 88095</h3>
+          <p>Get in touch with us for reservations or inquiries.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop">
+      <h2>Our Shop</h2>
+      <h1>Lets Check Popular Products</h1>
+
+      <div class="product-container">
+        <div class="product-card">
+          <img src="images/pav_bhaji.png" alt="PavBhaji" />
+          <h3>Pav Bhaji</h3>
+          <p>Taste Mumbai’s Heart in One Plate</p>
+          <div class="price">Rs. 200</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/idli.png" alt="IdliWithChutney" />
+          <h3>Idli With Chutney</h3>
+          <p>Start Your Day with Idli Delight</p>
+          <div class="price">Rs. 150</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/dal_bati.png" alt="DalBati" />
+          <h3>Dal Bati</h3>
+          <p>Traditional Flavors in Every Bati Bite</p>
+          <div class="price">Rs. 250</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/jalebi_fafda.png" alt="JalebiFafda" />
+          <h3>Jalebi Fafda</h3>
+          <p>Tradition Tastes Better with Jalebi Fafda</p>
+          <div class="price">Rs. 175</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/litti_chokha.png" alt="LittiChokha" />
+          <h3>Litti Chokha</h3>
+          <p>Bihar’s taste in every bite</p>
+          <div class="price">Rs. 150</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/chhole_bhature.png" alt="ChholeBhature" />
+          <h3>Chhole Bhature</h3>
+          <p>Big, fluffy bhature and bold chhole—made to make your day</p>
+          <div class="price">Rs. 150</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/rajma_chawal.png" alt="RajmaChawal" />
+          <h3>Rajma Chawal</h3>
+          <p>Warm rice, spicy beans, happy tummy</p>
+          <div class="price">Rs. 250</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/gol_gappe.png" alt="GolGappe" />
+          <h3>Gol Gappe</h3>
+          <p>Crispy outside, tangy surprise inside</p>
+          <div class="price">Rs. 110</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/pav_bhaji.png" alt="PavBhaji" />
+          <h3>Pav Bhaji</h3>
+          <p>Taste Mumbai’s Heart in One Plate</p>
+          <div class="price">Rs. 200</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/idli.png" alt="IdliWithChutney" />
+          <h3>Idli With Chutney</h3>
+          <p>Start Your Day with Idli Delight</p>
+          <div class="price">Rs. 150</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/dal_bati.png" alt="DalBati" />
+          <h3>Dal Bati</h3>
+          <p>Traditional Flavors in Every Bati Bite</p>
+          <div class="price">Rs. 250</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/jalebi_fafda.png" alt="JalebiFafda" />
+          <h3>Jalebi Fafda</h3>
+          <p>Tradition Tastes Better with Jalebi Fafda</p>
+          <div class="price">Rs. 175</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/litti_chokha.png" alt="LittiChokha" />
+          <h3>Litti Chokha</h3>
+          <p>Bihar’s taste in every bite</p>
+          <div class="price">Rs. 150</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/chhole_bhature.png" alt="ChholeBhature" />
+          <h3>Chhole Bhature</h3>
+          <p>Big, fluffy bhature and bold chhole—made to make your day</p>
+          <div class="price">Rs. 150</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/rajma_chawal.png" alt="RajmaChawal" />
+          <h3>Rajma Chawal</h3>
+          <p>Warm rice, spicy beans, happy tummy</p>
+          <div class="price">Rs. 250</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/gol_gappe.png" alt="GolGappe" />
+          <h3>Gol Gappe</h3>
+          <p>Crispy outside, tangy surprise inside</p>
+          <div class="price">Rs. 110</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="customer">
+      <h2>Our Customer</h2>
+      <h1>Clients Review About Our Food</h1>
+
+      <div class="testimonial-container">
+        <div class="testimonial-card">
+          <p>
+            Khane ki khushboo itni thi ki padosi bhi bina bulaye plate leke aa
+            gaye! Taste aisa tha ki jeebh ne bhi taali bajayi – ‘thoda aur
+            please!’ Har bite mein maa ka pyaar mehsoos hua.
+          </p>
+          <div class="user-info">
+            <img src="images/gaurav.jpg" alt="User 1" />
+            <div>
+              <h4>Gaurav Kachawa</h4>
+              <span>Coder</span>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            Main toh sirf selfie lene aaya tha Instagram ke liye, lekin khane ne
+            mujhe influencer bana diya! Itna tasty khaana ki ab toh main waiters
+            ko naam se jaanta hoon. Har weekend yahi booking fix hai
+          </p>
+          <div class="user-info">
+            <img src="images/murshid.jpg" alt="User 2" />
+            <div>
+              <h4>Murshid</h4>
+              <span>Food Vlogger</span>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            Yahan ki daal itni swadisht thi ki ek dum dadi maa ki yaad aa gayi.
+            Bati bhi itni soft thi ki bina daant ke bhi kha sakte ho. Pet bhi
+            full, dil bhi full – aur bill dekh kar toh aankhon mein aansu
+            (khushi ke)!
+          </p>
+          <div class="user-info">
+            <img src="images/navi.jpg" alt="User 1" />
+            <div>
+              <h4>Navi</h4>
+              <span>Dancer</span>
+            </div>
+          </div>
+          <div class="stars">★★★★☆</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="order-section">
+        <h2>Contact Us</h2>
+        <form class="order-form">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your full name"
+            required
+          />
+
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+
+          <label for="address">Delivery Address</label>
+          <textarea
+            id="address"
+            rows="3"
+            placeholder="Enter your address"
+            required
+          ></textarea>
+
+          <label for="dish">Select Dish</label>
+          <select id="dish" required>
+            <option value="">-- Choose a Dish --</option>
+            <option>Pav Bhaji</option>
+            <option>Idli with Chutney</option>
+            <option>Dal Bati</option>
+            <option>Jalebi Fafda</option>
+            <option>Gol Gappe</option>
+            <option>Litti Chokha</option>
+            <option>Chhole Bhature</option>
+            <option>Rajma Chawal</option>
+          </select>
+
+          <button type="submit">Order Now</button>
+        </form>
+      </div>
+
+      <div id="contact">
+        <h2>Contact Info</h2>
+        <p class="description">
+           Need help? Hungry thoughts? Or just want to confess your love for Chhole Bhature? Go ahead, drop us a message. We promise we don’t bite (unless you’re shaped like a samosa).<br>
+           Don’t be shy. We like foodies more than people who say “I’m on a diet.”
+        </p>
+
+        <div class="social-icons">
+          <a href="" class="icon instagram" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="" class="icon facebook" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="" class="icon phone" target="_blank"
+            ><i class="fas fa-phone"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
